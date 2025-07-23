@@ -1,6 +1,6 @@
-# TWRP device tree for Realme GT7 Pro
+# TWRP device tree for OnePlus Ace 3 Pro
 
-OnePlus Ace 5 Pro (codenamed _"PKR110"_) is a high-end smartphone from OnePlus.
+OnePlus Ace 3 Pro (codenamed _"PJX110"_) is a high-end smartphone from OnePlus.
 
 ## Build it yourself?
 
@@ -8,17 +8,17 @@ OnePlus Ace 5 Pro (codenamed _"PKR110"_) is a high-end smartphone from OnePlus.
 mkdir twrp && cd twrp
 repo init --depth=1 -u https://github.com/kmiit/platform_manifest_twrp_aosp
 repo sync
-git clone --depth=1 https://github.com/kmiit/android_device_OnePlus_PKR110-TWRP device/OnePlus/PKR110
+git clone --depth=1 https://github.com/sakurakyuo/android_device_oneplus_corvette-TWRP device/OnePlus/PJX110
 ```
 
 ```
 source build/envsetup.sh
-lunch twrp_PKR110-ap2a-eng
+lunch twrp_PJX110-ap2a-eng
 make recoveryimage
 ```
 
 
-If there is no error, recovery.img will be found in out/target/product/PKR110/recovery.img  
+If there is no error, recovery.img will be found in out/target/product/PJX110/recovery.img  
 **NOTE**  
 Using Github Actions to build TWRP-14 branch may fail because of the large source
 
@@ -43,7 +43,4 @@ Works:
 
 ```
 fastboot flash recovery recovery.img
-or
-fastboot flash recovery_a recovery.img
-fastboot flash recovery_b recovery.img
 ```

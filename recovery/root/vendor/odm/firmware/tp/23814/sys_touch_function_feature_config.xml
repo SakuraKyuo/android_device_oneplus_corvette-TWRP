@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
-    <version>2025040101</version>
+    <version>2024052701</version>
     <device id = "0">
-        <panel id = "0" name="tp/24811/FW_S3910_BOE_HBP.img">
+        <panel id = "0" name="tp/23814/FW_S3910_BOE_HBP.img">
             <modules id="PreventionConfig" enable="true" hint="">
                 <param name="panel-coords" type="u32" hint="max_x max_y">
                     <value>20224,44480</value>
@@ -26,7 +26,7 @@
                     <value>500,400,1873,7,7</value>
                 </param>
                 <param name="prevention,trx_reject_condition" type="u32" hint="" >
-                    <value>10,8,8</value>
+                    <value>9,7,7</value>
                 </param>
                 <param name="prevention,large_judge_time_ms" type="u32" hint="" >
                     <value>500,50,30</value>
@@ -53,16 +53,16 @@
                     <value>170,600,480</value>
                 </param>
                 <param name="prevention,edge_swipe_config" type="u32" hint="" >
-                    <value>586,665</value>
+                    <value>562,2224</value>
                 </param>
                 <param name="prevention,trx_strict_reject_condition" type="u32" hint="" >
-                    <value>8,7,7</value>
+                    <value>8,6,6</value>
                 </param>
                 <param name="prevention,long_strict_edge_condition" type="u32" hint="" >
-                    <value>160,120</value>
+                    <value>160,60</value>
                 </param>
                 <param name="prevention,short_strict_edge_condition" type="u32" hint="" >
-                    <value>160,120</value>
+                    <value>160,60</value>
                 </param>
                 <param name="prevention,large_strict_exit_condition" type="u32" hint="" >
                     <value>6,6</value>
@@ -76,9 +76,6 @@
                 <param name="prevention,curved_screen_V4" type="u32" hint="" >
                     <value>1</value>
                 </param>
-                <param name="prevention,curved_screen_V4_3" type="u32" hint="" >
-                    <value>1</value>
-                </param>
                 <param name="prevention,long_fingerhold_condition2" type="u32" hint="" >
                     <value>1141,3209,0,0</value>
                 </param>
@@ -89,7 +86,7 @@
                     <value>350,2270</value>
                 </param>
                 <param name="prevention,top_middle_config" type="u32" hint="" >
-                    <value>20224,200,1853,1</value>
+                    <value>20224,1853,1853,0</value>
                 </param>
                 <param name="prevention,corner_eliminate_point_type" type="u32" hint="" >
                     <value>0,1380,2280,1</value>
@@ -143,7 +140,7 @@
                     <value>180,550,25,0,1</value>
                 </param>
                 <param name="prevention,corner_point_edge_percent_thd" type="u32" hint="" >
-                    <value>1200,2,25,27,1</value>
+                    <value>1600,1,30,32,1</value>
                 </param>
                 <param name="prevention,corner_point_edge_percent_thd2" type="u32" hint="" >
                     <value>40,3,20,0,0</value>
@@ -152,34 +149,10 @@
                     <value>1,1,0,0,0</value>
                 </param>
                 <param name="prevention,point_corner_er_min_limit_check" type="u32" hint="" >
-                    <value>4,4,0,0,1</value>
+                    <value>3,3,0,0,1</value>
                 </param>
                 <param name="up_frame_report_down_first_support" type="u32" hint="" >
                     <value>0</value>
-                </param>
-                <param name="prevention,one_frame_down_check_support" type="u32" hint="" >
-                    <value>1</value>
-                </param>
-                <param name="prevention,uniform_make_up_point_v2" type="u32" hint="" >
-                    <value>10,2,7,7,1</value>
-                </param>
-                <param name="prevention,corner_point_scale_info_check" type="u32" hint="" >
-                    <value>150,80,5,2,1</value>
-                </param>
-                <param name="prevention,touch_point_stability_check" type="u32" hint="" >
-                    <value>100,500,0,0,0</value>
-                </param>
-                <param name="prevention,middle_bottom_long_press_check" type="u32" hint="" >
-                    <value>6,140,10,0,1</value>
-                </param>
-                <param name="prevention,middle_bottom_small_press_check" type="u32" hint="" >
-                    <value>4,70,550,140,10</value>
-                </param>
-                <param name="prevention,middle_bottom_exit_dis" type="u32" hint="" >
-                    <value>960,640,20,640,0</value>
-                </param>
-                <param name="prevention,middle_bottom_yfsr_coupling_thd" type="u32" hint="" >
-                    <value>90,60,5,10,0</value>
                 </param>
             </modules>
             <modules id="TouchConfig" enable="true" hint="">
@@ -190,7 +163,7 @@
                     <value>1</value>
                 </param>
                 <param name="touchpanel,smooth-level" type="u32" hint="">
-                    <value>16,20,18,16,14,12</value>
+                    <value>16,25,23,21,18,16</value>
                 </param>
                 <param name="touchpanel,sensitive-level" type="u32" hint="">
                     <value>16,12,10,9,7,5</value>
@@ -213,41 +186,17 @@
                 <param name="game_hot_zone_support" type="u32" hint="">
                     <value>1</value>
                 </param>
-                <param name="stats_upload_support" type="u32" hint="">
-                    <value>1</value>
-                </param>
                 <param name="peak_thd_config_support" type="u32" hint="">
                     <value>1</value>
                 </param>
                 <param name="senior_low_temp_mode_support" type="u32" hint="">
                     <value>1</value>
                 </param>
-                <param name="touch_scene_support" type="u32" hint="">
-                    <value>1</value>
-                </param>
-                <param name="game_mode_divided_report_rate_support" type="u32" hint="">
-                    <value>1</value>
-                </param>
                 <param name="aifilm_support" type="u32" hint="">
                     <value>1</value>
                 </param>
-                <param name="glove_enable_support" type="u32" hint="">
-                    <value>1</value>
-                </param>
-                <param name="prjId" type="u32" hint="" >
-                    <value>23851</value>
-                </param>
                 <param name="prevention,curved_screen_V4_3" type="u32" hint="" >
                     <value>1</value>
-                </param>
-                <param name="touchZToPressureSupport" type="u32" hint="" >
-                    <value>1</value>
-                </param>
-                <param name="fp_down_prevent_support" type="u32" hint="">
-                    <value>10112, 40320, 3200, 3200</value>
-                </param>
-                <param name="floatLimitValue" type="u32" hint="" >
-                    <value>700</value>
                 </param>
             </modules>
         </panel>
